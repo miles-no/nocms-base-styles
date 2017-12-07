@@ -7,7 +7,6 @@ Base CSS for NoCMS.
 [![devDependencies](https://david-dm.org/miles-no/nocms-base-styles/dev-status.svg)](https://david-dm.org/miles-no/nocms-base-styles?type=dev)
 
 ## Commit message format and publishing
-
 This repository is published using `semantic-release`, with the default [AngularJS Commit Message Conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit).
 
 ## Use
