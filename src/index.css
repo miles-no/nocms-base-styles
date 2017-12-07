@@ -3,7 +3,7 @@
 @import 'generic/reset';
 @import 'generic/global';
 
-@import 'elements/global'
+@import 'elements/global';
 
 @import 'components/embed-media';
 @import 'components/lists.css';

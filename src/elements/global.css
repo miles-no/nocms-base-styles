@@ -1,15 +1,15 @@
 html {
   height: 100%;
 }
-body
-{
+
+body {
     overflow-x: hidden;
     background-color: var(--white);
     min-height: 100%;
 }
+
 html,
-body
-{
+body {
   font-family: var(--sans-serif);
   font-size: var(--font-size-base);
   font-weight: var(--normal);
@@ -100,11 +100,13 @@ textarea[readonly]:focus {
 label {
     margin: 0.5rem 0 0.2rem;
 }
+
 fieldset {
     margin: 0;
     padding: 0.35rem 0 0.75rem;
     border: 0;
 }
+
 legend {
     display: block;
     width: 100%;
