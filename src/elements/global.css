@@ -1,0 +1,113 @@
+html {
+  height: 100%;
+}
+body
+{
+    overflow-x: hidden;
+    background-color: var(--white);
+    min-height: 100%;
+}
+html,
+body
+{
+  font-family: var(--sans-serif);
+  font-size: var(--font-size-base);
+  font-weight: var(--normal);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea,
+button,
+select {
+    outline: none;
+}
+
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  outline: thin solid #129FEA;
+  outline: 1px auto #129FEA;
+}
+
+button {
+  cursor: pointer;
+  border: var(--btn-border);
+  border-radius: var(--btn-border-radius);
+  background-color: var(--btn-bg-color);
+  color: var(--btn-color);
+  text-align: center;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 100%;
+  display: inline-block;
+  zoom: 1;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding: var(--padding-small) var(--padding-small);
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: var(--btn-bg-active-color);
+  }
+}
+
+label {
+  display: block;
+  vertical-align: middle;
+}
+
+input,
+select,
+textarea {
+  padding: .5rem .6rem;
+  display: block;
+  border: var(--input-border);
+  border-radius: var(--input-border-radius);
+  vertical-align: middle;
+  background-color: var(--input-bg-color);
+  box-shadow: var(--input-box-shadow);
+  &:focus {
+    box-shadow: 0 0 8px rgba(82,168,236,.6);
+  }
+}
+
+select {
+  height: var(--select-height);
+}
+
+input[disabled],
+select[disabled],
+textarea[disabled] {
+  cursor: not-allowed;
+  background-color: var(--disabled-bg-color);
+  color: var(--disabled-color);
+}
+
+input[readonly],
+select[readonly],
+textarea[readonly],
+input[readonly]:focus,
+textarea[readonly]:focus {
+  background-color: var(--readonly-bg-color);
+  color: var(--readonly-color);
+  border-color: var(--readonly-border-color);
+}
+
+label {
+    margin: 0.5rem 0 0.2rem;
+}
+fieldset {
+    margin: 0;
+    padding: 0.35rem 0 0.75rem;
+    border: 0;
+}
+legend {
+    display: block;
+    width: 100%;
+    padding: 0.3rem 0;
+    margin-bottom: 0.3rem;
+}

@@ -1,0 +1,38 @@
+{
+  "name": "nocms-base-styles",
+  "version": "0.0.0-development",
+  "description": "Base CSS for NoCMS",
+  "main": "lib/index.css",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "postcss --config ./postcss.config.js --output lib/index.css src/index.css",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miles-no/nocms-base-styles.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Wenche Tollevsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miles.no/nocms-base-styles/issues"
+  },
+  "homepage": "https://github.com/miles.no/nocms-base-styles#readme",
+  "devDependencies": {
+    "condition-circle": "^1.5.0",
+    "postcss-cli": "^4.1.1",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^11.0.0",
+    "postcss-url": "^7.3.0",
+    "semantic-release": "^8.2.0"
+  },
+  "release": {
+    "verifyConditions": "condition-circle"
+  }
+}

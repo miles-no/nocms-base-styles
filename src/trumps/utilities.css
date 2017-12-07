@@ -1,0 +1,73 @@
+.no-padding {
+    padding: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.wide {
+    width: auto;
+    max-height: 100%;
+}
+
+.tall {
+    max-width: 100%;
+    height: auto;
+}
+
+.bold {
+    font-weight: var(--bold);
+}
+
+.italic {
+    font-style: italic;
+}
+
+.has-top-margin {
+    margin-top: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden{
+  display: none !important;
+}
+
+.visible {
+  display: block !important;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container__centered,
+.flex-container--centered {
+  align-items: center;
+}
+
+.unstyled-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+/*************** Material icons sizing *************/
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }

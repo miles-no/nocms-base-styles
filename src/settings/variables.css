@@ -1,0 +1,82 @@
+:root{
+  /* =================================
+  Colors
+  ================================= */
+  --white: #ffffff;
+  --black: #000000;
+  --slate: #414A52;
+  --light-grey: #F4F6F9;
+
+  /* =================================
+  Typography
+  ================================== */
+  --sans-serif: Raleway, Verdana, Arial, sans-serif;
+  --serif: Montserrat, Georgia, 'Times New Roman', serif;
+  --light: 300;
+  --normal: 400;
+  --semibold: 500;
+  --bold: 600;
+  --strong: 700;
+  --italic: italic;
+
+  --font-size-base: 16px;
+  --text-color: var(--slate);
+
+  /* =================================
+  Padding
+  ================================= */
+  --padding-xsmall: 1px;
+  --padding-small: 5px;
+  --padding-medium: 10px;
+  --padding-large: 20px;
+  --padding-xlarge: 30px;
+
+  /* =================================
+  Borders
+  ================================= */
+  --border-radius-small: 1px;
+  --border-radius-medium: 4px;
+  --border-radius-large: 8px;
+
+  /* =================================
+  Buttons
+  ================================= */
+  --btn-font-weight: normal;
+  --btn-font-size: var(--base-font-size);
+  --btn-bg-color: var(--white);
+  --btn-bg-active-color: var(--light-grey);
+  --btn-color: var(--text-color);
+  --btn-border: 1px solid var(--slate);
+  --btn-text-align: center;
+  --btn-border-radius: var(--border-radius-small);
+
+  /* =================================
+  Forms
+  ================================= */
+  --input-border: 1px solid var(--slate);
+  --input-border-radius: var(--border-radius-small);
+  --input-bg-color: var(--white);
+  --input-box-shadow: none;
+  --select-height: 2.25rem;
+
+  --readonly-bg-color: #eee;
+  --readonly-color: #777;
+  --readonly-border-color: #ccc;
+
+  --disabled-bg-color: #eaeded;
+  --disabled-color: #cad2d3;
+
+  /* =================================
+  Media queries
+  ================================== */
+  --breakpoint-sm: 500px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+}
+
+@custom-media --breakpoint-sm (width > 500px);
+@custom-media --breakpoint-md (width > 767px);
+@custom-media --breakpoint-lg (width > 1024px);
+@custom-media --breakpoint-xl (width > 1280px);
+@custom-media --breakpoint-xxl (width > 1300px);
