@@ -32,6 +32,14 @@
     text-align: center;
 }
 
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
 .hidden{
   display: none !important;
 }
