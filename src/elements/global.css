@@ -63,7 +63,7 @@ label {
 input,
 select,
 textarea {
-  padding: .5rem .6rem;
+  padding: 0.5rem 0.6rem;
   display: block;
   border: var(--input-border);
   border-radius: var(--input-border-radius);
