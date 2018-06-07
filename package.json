@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "postcss --config ./postcss.config.js --output lib/index.css src/index.css",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "nsp": "nsp check"
   },
   "repository": {
     "type": "git",
@@ -25,14 +25,11 @@
   },
   "homepage": "https://github.com/miles.no/nocms-base-styles#readme",
   "devDependencies": {
-    "condition-circle": "1.5.0",
-    "postcss-cli": "^4.1.1",
-    "postcss-cssnext": "^3.0.2",
-    "postcss-import": "^11.0.0",
-    "postcss-url": "^7.3.0",
-    "semantic-release": "^8.2.0"
-  },
-  "release": {
-    "verifyConditions": "condition-circle"
+    "nsp": "^3.2.1",
+    "postcss-cli": "^5.0.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^11.1.0",
+    "postcss-url": "^7.3.2",
+    "semantic-release": "^15.5.1"
   }
 }
